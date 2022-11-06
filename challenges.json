@@ -1,0 +1,22 @@
+[
+  {
+    "type": "body",
+    "description": "体操をする",
+    "amount": 80
+  },
+  {
+    "type": "body",
+    "description": "腕立て伏せをする",
+    "amount": 80
+  },
+  {
+    "type": "body",
+    "description": "腹筋をする",
+    "amount": 80
+  },
+  {
+    "type": "eye",
+    "description": "目の体操をする",
+    "amount": 80
+  }
+]
