@@ -27,7 +27,7 @@ export function ChallengeProvider({ children }: ChallengesProviderProps) {
   const [currentExperience, setCurrentExperience] = useState(0);
   const [challengesCompleted, setChallengesCompleted] = useState(0);
 
-  const [activeChallenge, setActiveChallenge] = useState();
+  const [activeChallenge, setActiveChallenge] = useState(0);
 
   function levelUp() {
     setLevel(level + 1);
@@ -43,9 +43,9 @@ export function ChallengeProvider({ children }: ChallengesProviderProps) {
   return(
     <ChallengesContext.Provider 
       value={{ 
-        level, 
-        currentExperience, 
-        challengesCompleted, 
+        level,
+        currentExperience,
+        challengesCompleted,
         activeChallenge,
         levelUp,
         startNewChallenge,
